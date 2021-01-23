@@ -1,4 +1,4 @@
-﻿#include "andrey2.h"
+#include "Header.h"
 int main()
 {
 	int n = input(n);
