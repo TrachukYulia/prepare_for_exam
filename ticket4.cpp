@@ -1,4 +1,4 @@
-#include "andrey5.h"
+#include "Header.h"
 
 int input(int& n)
 {
@@ -39,7 +39,7 @@ void output(int** arr, int n)
 	}
 	cout << endl;
 }
-void sort2(int** arr, int n)// äçåğêàëüíî â³äíîñíî ãëàâíî¿
+void sort2(int** arr, int n)// Ã¤Ã§Ã¥Ã°ÃªÃ Ã«Ã¼Ã­Ã® Ã¢Â³Ã¤Ã­Ã®Ã±Ã­Ã® Ã£Ã«Ã Ã¢Ã­Ã®Â¿
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -52,7 +52,7 @@ void sort2(int** arr, int n)// äçåğêàëüíî â³äíîñíî ãëàâíî¿
 		
 	}
 }
-void sort(int** arr, int n) // ñîğò³ğîâêà ãëàâíî¿ ó ñïàäàíí³
+void sort(int** arr, int n) // Ã±Ã®Ã°Ã²Â³Ã°Ã®Ã¢ÃªÃ  Ã£Ã«Ã Ã¢Ã­Ã®Â¿ Ã³ Ã±Ã¯Ã Ã¤Ã Ã­Ã­Â³
 {
 	for (int i =1 ; i < n; i++)
 	{
