@@ -1,4 +1,4 @@
-#include "andrey2.h"
+#include "Header.h"
 
 int** create(int n)
 {
@@ -37,7 +37,7 @@ void output(int **arr, int n)
 	}
 	cout << endl;
 }
-void sort_m(int** arr, int n )//піфагорa
+void sort_m(int** arr, int n )//ГЇВіГґГ ГЈГ®Г°a
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -47,7 +47,7 @@ void sort_m(int** arr, int n )//піфагорa
 		}
 	}
 }
-void sort_m2(int** arr, int n)// зеркально відносно побічної
+void sort_m2(int** arr, int n)// Г§ГҐГ°ГЄГ Г«ГјГ­Г® ГўВіГ¤Г­Г®Г±Г­Г® ГЇГ®ГЎВіГ·Г­Г®Вї
 {
 	for (int i = n-1; i >=0; i--)
 	{
@@ -57,7 +57,7 @@ void sort_m2(int** arr, int n)// зеркально відносно побічної
 		}
 	}
 }
-void sort_m3(int** arr, int n)//побічну у зростанні/спаданні
+void sort_m3(int** arr, int n)//ГЇГ®ГЎВіГ·Г­Гі Гі Г§Г°Г®Г±ГІГ Г­Г­Ві/Г±ГЇГ Г¤Г Г­Г­Ві
 {
 	{
 		for (int i = 0; i < n-1; i++)
