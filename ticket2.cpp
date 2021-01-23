@@ -1,10 +1,10 @@
-#include "andrey4.h"
+#include "Header.h"
 
 void input(int& d, int& a1, int& n)
 {
 	do
 	{
-		cout << "enter d, à1, n: " << endl; cin >> d >> a1 >> n;
+		cout << "enter d, Ã 1, n: " << endl; cin >> d >> a1 >> n;
 	} while (n <= 0);
 }
 int** create(int d, int a1, int n)
@@ -35,7 +35,7 @@ void output(int** arr, int n)
 	}
 	cout << endl;
 }
-void sort(int** arr, int n)// çåğêàëüíî â³äíîñíî ïîá³÷íî¿
+void sort(int** arr, int n)// Ã§Ã¥Ã°ÃªÃ Ã«Ã¼Ã­Ã® Ã¢Â³Ã¤Ã­Ã®Ã±Ã­Ã® Ã¯Ã®Ã¡Â³Ã·Ã­Ã®Â¿
 {
 	for (int i = n - 1; i >= 0; i--)
 	{
