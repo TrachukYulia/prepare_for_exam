@@ -39,7 +39,7 @@ void output(int** arr, int n)
 	}
 	cout << endl;
 }
-void sort2(int** arr, int n)// äçåðêàëüíî â³äíîñíî ãëàâíî¿
+void sort2(int** arr, int n)// 
 {
 	for (int i = 0; i < n; i++)
 	{
