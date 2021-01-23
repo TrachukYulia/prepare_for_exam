@@ -1,4 +1,4 @@
-#include "andrey6.h"
+#include "Header.h"
 int input(int &n)
 {
 	do
