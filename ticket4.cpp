@@ -20,7 +20,7 @@ int** create(int n)
 		for (int j = 0; j < n; j++)
 		{
 			arr[i][j] = s +p;
-		    s = p;
+		        s = p;
 			p = arr[i][j];		
 		}
 	}
@@ -39,7 +39,7 @@ void output(int** arr, int n)
 	}
 	cout << endl;
 }
-void sort2(int** arr, int n)// 
+void sort2(int** arr, int n)
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -52,7 +52,7 @@ void sort2(int** arr, int n)//
 		
 	}
 }
-void sort(int** arr, int n) // ñîðò³ðîâêà ãëàâíî¿ ó ñïàäàíí³
+void sort(int** arr, int n)
 {
 	for (int i =1 ; i < n; i++)
 	{
