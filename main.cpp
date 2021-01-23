@@ -1,4 +1,4 @@
-﻿#include "andrey4.h"
+#include "Header.h"
 int main()
 {
 	int d, a1, n;
